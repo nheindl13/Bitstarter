@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bitstarter Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="http://examples.getbootstrap.com/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="http://examples.getbootstrap.com/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="http://examples.getbootstrap.com/bootstrap/css/docs.css" rel="stylesheet">
+	
+	<style>
+		body {
+			padding-top: 60px;
+		}
+
+		.maintitle {
+			background-color: #ECF0F1;
+			color: #000;
+		}
+		.main {
+			background-color: #fff;
+			text-align: center;
+		}
+		.main h1 {
+			font-size: 80px;
+			font-weight: bold;
+			letter-spacing: -1px;
+			line-height: 1;
+		}
+		.newsletter {
+			background-color: #5CB3FF;
+			color: #000;
+			text-align: center;
+		}
+		
+		.detailed {
+			background-color: #1589FF; 
+			color: #fff;
+		}
+		 div.addthis_toolbox {
+			width:180px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand pull-right" href="#">Bitstarter</a>
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Download</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+
+	<div class="container">
+		<div class="jumbotron main">
+			<h1>Bitstarter</h1>
+			<p>Quick blurb about bitstarter goes here. Mention why its cool, what it does, etc.</p>
+			<p>
+				<a class="btn btn-large btn-primary" href=#">Learn More &raquo;</a>
+			</p>
+			<div class="span8 offset2 social">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+					<a class="addthis_button_compact"></a>
+					<a class="addthis_counter addthis_bubble_style"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fa63c00fd80dfd"></script>
+				<!-- AddThis Button END -->
+			</div>
+		</div>
+		
+		<div class="jumbotron newsletter">
+			<p>Want updates? Sign up for our newsletter!
+				<form>
+					<input type="text" placeholder="Enter email">
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</p>
+		</div>		
+		
+		<div class="jumbotron detailed">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>	
+	</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://examples.getbootstrap.com/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://examples.getbootstrap.com/bootstrap/js/bootstrap.js"></script>
+    <script src="js/respond.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-42844173-1', 'herokuapp.com');
+		ga('send', 'pageview');
+	</script>    
+</body>
+</html>
